@@ -14,12 +14,12 @@ logging:
               
 zuul:
   routes:
-    department:
+    epl-department-service:
       path: /department/**
       serviceId: epl-department-service
-    employee:
+    epl-employee-service:
       path: /employee/**
       serviceId: epl-employee-service
-    organization:
+    epl-organization-service:
       path: /organization/**
       serviceId: epl-organization-service
