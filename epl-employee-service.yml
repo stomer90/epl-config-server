@@ -6,7 +6,7 @@ eureka:
     registerWithEureka: true
     fetchRegistry: true
     serviceUrl:
-      defaultZone: http://epl-discovery-service:8061/eureka
+      defaultZone: http://${REGISTRY_HOST}:8061/eureka
       
 logging:
   pattern: 
